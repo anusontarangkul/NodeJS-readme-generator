@@ -1,54 +1,53 @@
 
-    # test 
-    [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/anusontarangkul/test)
+# README Generator 
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/anusontarangkul/readme-generator)
     
-    ## Description
+## Description
 
-    test
+This is a node application that helps you generate a README.md.
     
-    ## Table of Contents
+## Table of Contents
     
-    * [Installation](#installation)
+* [Installation](#installation)
 
-    * [Usage](#usage)
+* [Usage](#usage)
 
-    * [License](#license)
+* [License](#license)
 
-    * [Contributing](#contributing)
+* [Contributing](#contributing)
 
-    * [Tests](#tests)
+* [Tests](#tests)
 
-    * [Questions](#questions)
+* [Questions](#questions)
     
-    ## Installation
+## Installation
 
-    To install the necessary dependencies and run the command:
+To install the necessary dependencies and run the command:
 
-    ```
-    test
-    ```
+```
+npm i
+```
     
-    ## Usage
+## Usage
 
-    undefined
+You will recieve prompts asking you for details about your application. Once you finish answering all of the questions, a README.md file will be added into your current folder with the appropriate information.
     
-    ## License
+## License
             
-            This project is license under MIT.
+This project is license under MIT.
    
-    ## Contributors
+## Contributors
     
-    test
+David Anusontarangkul
 
-    ## Tests
+## Tests
 
-    To test this project run the following command:
+To test this project run the following command:
 
-    ```
-    test
-    ```
+```
+node index.js
+```
 
-    ## Questions
+## Questions
 
-    If you have any questions, please contact anusontarangkul at test.
-    
+If you have any questions, please contact anusontarangkul at anusontarangkul.d@gmail.com.

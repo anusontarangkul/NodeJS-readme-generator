@@ -27,6 +27,11 @@ const questions = [
         message: "Please enter the installation directions."
     },
     {
+        type: "input",
+        name: "usage",
+        message: "Please enter how to use the application."
+    },
+    {
         type: "list",
         name: "license",
         message: "Please enter the license.",
@@ -41,11 +46,6 @@ const questions = [
         type: "input",
         name: "tests",
         message: "Please enter how to test the app."
-    },
-    {
-        type: "input",
-        name: "pciture",
-        message: "Please enter your GitHub profile picture."
     },
     {
         type: "input",

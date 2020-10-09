@@ -15,7 +15,7 @@ function renderLicenseSection(license) {
         return (
             `## License
             
-            This project is license under ${license}.`
+This project is license under ${license}.`
         )
     }
     return "";
@@ -23,57 +23,57 @@ function renderLicenseSection(license) {
 
 function generateMarkdown(data) {
     return `
-    # ${data.title} 
-    ${generateLicenseBadge(data.license, data.github, data.title)}
+# ${data.title} 
+${generateLicenseBadge(data.license, data.github, data.title)}
     
-    ## Description
+## Description
 
-    ${data.description}
+${data.description}
     
-    ## Table of Contents
+## Table of Contents
     
-    * [Installation](#installation)
+* [Installation](#installation)
 
-    * [Usage](#usage)
+* [Usage](#usage)
 
-    * [License](#license)
+* [License](#license)
 
-    * [Contributing](#contributing)
+* [Contributing](#contributing)
 
-    * [Tests](#tests)
+* [Tests](#tests)
 
-    * [Questions](#questions)
+* [Questions](#questions)
     
-    ## Installation
+## Installation
 
-    To install the necessary dependencies and run the command:
+To install the necessary dependencies and run the command:
 
-    \`\`\`
-    ${data.installation}
-    \`\`\`
+\`\`\`
+${data.installation}
+\`\`\`
     
-    ## Usage
+## Usage
 
-    ${data.usage}
+${data.usage}
     
-    ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
    
-    ## Contributors
+## Contributors
     
-    ${data.contributors}
+${data.contributors}
 
-    ## Tests
+## Tests
 
-    To test this project run the following command:
+To test this project run the following command:
 
-    \`\`\`
-    ${data.tests}
-    \`\`\`
+\`\`\`
+${data.tests}
+\`\`\`
 
-    ## Questions
+## Questions
 
-    If you have any questions, please contact ${data.github} at ${data.email}.
-    `
+If you have any questions, please contact ${data.github} at ${data.email}.
+`
 }
 
 module.exports = generateMarkdown;

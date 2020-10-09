@@ -8,6 +8,11 @@ inquirer
     .prompt([
         {
             type: "input",
+            name: "githubUser",
+            message: "Please enter the title of your GitHub username."
+        },
+        {
+            type: "input",
             name: "title",
             message: "Please enter the title of your project."
         },
@@ -18,18 +23,14 @@ inquirer
         },
         {
             type: "input",
-            name: "table of conts",
-            message: "Please enter the Table of Contents of your project."
-        },
-        {
-            type: "input",
             name: "installation",
             message: "Please enter the installation directions."
         },
         {
-            type: "input",
+            type: "list",
             name: "license",
-            message: "Please enter the license."
+            message: "Please enter the license.",
+            choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "none"]
         },
         {
             type: "input",

@@ -1,11 +1,11 @@
-function generateProjectURL(githubUser, title) {
+function generateProjectURL(github, title) {
     const validTitle = title.toLowerCase().split(" ").join("-");
-    return `https://github.com/${githubUser}/${validTitle}`;
+    return `https://github.com/${github}/${validTitle}`;
 }
 
-function generateLicenseBadge(license, githubUser, title) {
+function generateLicenseBadge(license, github, title) {
     if (license !== "none") {
-        return `[![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)](${generateProjectURL(githubUser, title)})`
+        return `[![GitHub license](https://img.shields.io/badge/License-${license}-blue.svg)](${generateProjectURL(github, title)})`
     }
     return "";
 }
@@ -24,7 +24,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
     return `
     # ${data.title} 
-    ${generateLicenseBadge(data.license, data.githubUser, data.title)}
+    ${generateLicenseBadge(data.license, data.github, data.title)}
     
     ## Description
 
@@ -72,6 +72,8 @@ function generateMarkdown(data) {
 
     ## Questions
 
-    If you have any questions, please contact ${githubUser} at ${data.email}.
+    If you have any questions, please contact ${data.github} at ${data.email}.
     `
 }
+
+module.exports = generateMarkdown;

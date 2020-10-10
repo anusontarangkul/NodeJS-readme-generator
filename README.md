@@ -31,7 +31,9 @@ npm i
 ## Usage
 
 You will recieve prompts asking you for details about your application. Once you finish answering all of the questions, a README.md file will be added into your current folder with the appropriate information.
-    
+
+![screenshot](./screenshot.png)
+
 ## License
             
 This project is license under MIT.
@@ -41,6 +43,9 @@ This project is license under MIT.
 David Anusontarangkul
 
 ![image](https://github.com/anusontarangkul.png?size=200)
+
+[Github](https://github.com/anusontarangkul)
+[LinkedIn](https://www.linkedin.com/in/anusontarangkul/)
 
 ## Tests
 

@@ -62,6 +62,8 @@ ${renderLicenseSection(data.license)}
     
 ${data.contributors}
 
+![image](https://github.com/${data.github}.png?size=200)
+
 ## Tests
 
 To test this project run the following command:

@@ -40,6 +40,8 @@ This project is license under MIT.
     
 David Anusontarangkul
 
+![image](https://github.com/anusontarangkul.png?size=200)
+
 ## Tests
 
 To test this project run the following command:
